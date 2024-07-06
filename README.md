@@ -26,13 +26,20 @@ Este bot é ideal para casos simples onde você deseja configurar respostas auto
 1. **Editar o código:**
    - Certifique-se de substituir `seu_token_aqui` pelas informações corretas das suas credenciais em `CODIGO/TOKEN.py`.
 
-2. **Inicie o Bot:**
+2. **Instalando as dependências:**
+   - Antes de executar o aplicativo, certifique-se de instalar todas as dependências necessárias. No terminal, execute o seguinte comando para instalar as dependências listadas no arquivo `requirements.txt` no diretório: `CODIGO`:
+   ```bash
+   pip install -r requirements.txt
+   ```
+   - Isso instruirá o pip a ler o arquivo requirements.txt e instalar todas as dependências listadas.
+
+3. **Inicie o Bot:**
    - Execute o bot do Discord iniciando-o com o seguinte comando no diretório `CODIGO`:
     ```bash
     python CODIGO.py
     ```
 
-3. **Interagindo com o Bot no Discord:**
+4. **Interagindo com o Bot no Discord:**
    - Após iniciar o bot, ele monitorará todas as mensagens enviadas no servidor.
    - Quando uma mensagem contém uma palavra-chave definida em `WORD.py`, o bot responderá automaticamente com a mensagem correspondente.
 
